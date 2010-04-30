@@ -57,7 +57,6 @@ lo mejor es configurar SmartGit (en caso de usar SmartGit).
 5. Hacer click en Select from GitHub y elegir el proyecto ultimogol.com. Presionar Next.
 6. Elegir en qué directorio se colocará el código fuente y terminar con la importación.
 
-
 Configuración de la base de datos
 =================================
 
@@ -65,6 +64,10 @@ La base de datos utilizada es MySQL 5.0. Una vez instalada, ejecutar el script c
 que se encuentra en /src/main/config/db-script:
 
 mysql -u root < create_database.sql
+
+Si el usuario root tiene password, utilizar el siguiente comando:
+
+mysql -u root -p < create_database.sql
 
 Esto crea la base de datos y el usuario para acceder:
 
