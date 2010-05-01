@@ -1,0 +1,11 @@
+Pude hacer funcionar esta poronga!!!!
+
+Propongo:
+
+Cada uno tenga su propio archivo de comentarios / modificiones SQL llamado exequiel.txt y diego.txt
+
+- Cuando hagamos un cambio en la base de datos, en el commit, ponemos DB, entonces el otro pasa a buscar en el archivo txt los cambios SQL de la fecha
+- Lo mismo cuando haya para hacer un comentario o algo que leer (POR EJEMPLO ALGO DE CONFIGURACION COMO AHORA), ponemos TXT, y el otro sabe que hay algo en el archivo personal.
+
+
+Que te parece? 
